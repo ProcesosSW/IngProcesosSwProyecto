@@ -1,0 +1,126 @@
+			.cuadro{
+				display: inline-block;
+				vertical-align: top;
+				width: 900px;
+			}
+			#alinear{
+				margin-left: 330px;
+			}
+			#alineardos{
+				margin-left: 300px;
+			}
+			#logeo{
+				margin-left: 50px;
+				top: 50px;
+				padding-top: 15px;
+			}
+			#cerrar_sesion a{
+				color: #90CB4D;
+			}
+			#globo{
+	        width: 1000px;
+	        height: 450px;
+	        padding: 10px;
+	        border-radius: 5px;
+	        box-shadow: 0 2px 5px #90CB4D;
+	        background-color: #2F4452;
+	        position: relative;
+	        margin-left: 150px;
+	        }
+	        #globofacetas{
+	        width: 1000px;
+	        height: 80px;
+	        padding: 10px;
+	        border-radius: 5px;
+	        box-shadow: 0 2px 5px #90CB4D;
+	        background-color: #2F4452;
+	        position: relative;
+	        margin-left: 150px;
+	        }
+        	{
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin-left: 280px;
+				width:1200px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#90CB4D;
+				color:#000000;
+				text-decoration:none;
+				padding:10px 45px;
+				display:block;
+				font-size: 20px;
+			}
+			
+			.nav li a:hover {
+				background-color:#658146;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+
+			.nav1 > li {
+				float:left;
+			}
+			
+			.nav1 li a {
+				background-color:#90CB4D;
+				color:#000000;
+				text-decoration:none;
+				padding:10px 16px;
+				display:block;
+				font-size: 18px;
+			}
+			
+			.nav1 li a:hover {
+				background-color:#658146;
+			}
+			
+			.nav1 li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav1 li:hover > ul {
+				display:block;
+			}
+			
+			.nav1 li ul li {
+				position:relative;
+			}
+			
+			.nav1 li ul li ul {
+				right:-140px;
+				top:0px;
+			

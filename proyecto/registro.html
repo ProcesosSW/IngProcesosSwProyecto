@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Buscador</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="templatemo_style.css" type="text/css" rel="stylesheet" /> 
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+<script type="text/javascript" src="js/jquery.scrollTo-min.js"></script> 
+<script type="text/javascript" src="js/jquery.localscroll-min.js"></script> 
+<script type="text/javascript" src="js/init.js"></script>  
+<link rel="stylesheet" href="css/slimbox2.css" type="text/css" media="screen" /> 
+<script type="text/JavaScript" src="js/slimbox2.js"></script> 
+<script language="javascript" type="text/javascript">
+function clearText(field)
+{
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+}
+</script>
+<link rel="shortcut icon" href="images/icono.png">
+</head>
+
+<body>
+<div id="templatemo_header_wrapper">
+	<div id="templatemo_header">
+    	<div id="site_title"><a href="#">Bienvenido</a></div>
+    </div>
+</div>	
+<div id="templatemo_main_wrapper">
+	<div id="templatemo_main">
+		<div id="content"> 
+			<div class="section section_with_padding" id="about"> 
+			    <h1>Registro de Usuarios</h1>
+			    <div class="half left">
+			        <div class="img_border img_fl"><img src="images/registro.png" alt="ingreso" /></div>
+			    </div>
+			    <div class="half right">
+			        <ul id="social_links">
+			        	<form action="registro.php" method="POST">
+							<li><h3>Usuario:</h3></li>
+							<li><input type="text" name="user" placeholder="Usuario"/></li><br>
+							<li><h3>Password:</h3><li>
+							<li><input type="password" name="pass" placeholder="Password"/></li><br>
+							<li><h3>Correo:</h3></li>
+							<li><input type="text" name="mail" placeholder="Correo electrónico"/></li><br>
+							<li><input type="submit" value="Registrar"/></li>
+						</form>                      
+			        </ul>
+				</div>
+                <a href="index.php" class="page_nav_btn previous">Volver</a>
+			</div> <!-- END of About -->
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+
+
